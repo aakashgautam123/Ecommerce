@@ -1,0 +1,79 @@
+body
+{
+	padding: 0;
+	margin:0;
+	font-family: helvetica;
+	
+}
+#cart
+{
+	height: 100vh;
+	
+	width:50%;
+	float: left;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+input
+{
+	display: block;
+	margin:0 auto;
+	width: 200px;
+	border:transparent;
+	border-bottom: 2px solid #aaa;
+	margin-bottom: 10px;
+
+}
+input[type='submit']
+{
+	margin-top: 20px;
+	border:1px solid #0085BA;
+	background:#0085BA;
+	color: white;
+
+}
+label
+{
+	margin-left: 70px;
+	color: grey;
+
+	}
+#form
+{
+	
+	
+	
+	width: 50%;
+	height: 100vh;
+	float: right;
+	background-color: #F1F1F1;
+	position: relative;
+
+
+	
+	
+	}
+	#formarea
+	{
+		background-color:white;
+		position: absolute;
+		width:50%;
+		padding: 20px;
+		height:300px;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+
+
+
+
+
+	}
+	::placeholder
+
+	{
+		opacity: 0.5;
+	}

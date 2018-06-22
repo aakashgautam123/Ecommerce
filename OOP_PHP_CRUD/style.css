@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+
+}
+#revenue{
+ width: 20%;
+ height:200px;
+margin:10px;
+ background-color: #124ba8;
+float:left;
+text-align: center; 
+}
+#sales{
+ width: 20%;
+ height:200px;
+ margin:10px;
+ background-color: #db1c52;
+float:left;text-align: center; 
+}
+
+#neworder{
+ width: 20%;
+ height:200px;
+float:left;
+margin:10px;
+ background-color: #2fa020;text-align: center; 
+
+}
+#visits{
+ width: 20%;
+ height:200px;
+float:left;
+ background-color: orange;
+ margin:10px;text-align: center; 
+}
+.vertical{
+ margin-top: 0px;
+ font-weight: bold;
+ font-size: 20px;
+ color: white;
+ font-family: helvetica;
+
+}
+img{
+	margin-top: 30px;
+}
+#chartcontainer
+{
+	height: 400px;
+	width: 400px;
+}
